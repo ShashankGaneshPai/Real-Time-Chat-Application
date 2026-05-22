@@ -73,8 +73,10 @@ function MessageInput() {
             setText(e.target.value);
             isSoundEnabled && playRandomKeyStrokeSound();
           }}
-          className="flex-1 bg-slate-800/50 border border-slate-700/50 rounded-lg py-2 px-4"
-          placeholder="Type your message..."
+          // className="flex-1 bg-slate-800/50 border border-slate-700/50 rounded-lg py-2 px-4"
+          // placeholder="Type your message..."
+          className="flex-1 bg-slate-800/50 border border-slate-700/50 rounded-lg py-2 px-4 text-white placeholder-gray-400"
+placeholder="Type your message..."
         />
 
         <input
