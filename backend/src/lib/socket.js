@@ -9,7 +9,10 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: [ENV.CLIENT_URL],
+    origin: [
+  "http://localhost:5173",
+  "https://real-time-chat-application-zeta-seven.vercel.app",
+],
     credentials: true,
   },
 });
